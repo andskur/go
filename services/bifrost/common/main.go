@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/stellar/go/support/log"
+	"github.com/andskur/go/support/log"
 )
 
 const StellarAmountPrecision = 7

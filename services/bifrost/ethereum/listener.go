@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/andskur/go/support/log"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stellar/go/services/bifrost/common"
 	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
 )
 
 func (l *Listener) Start(rpcServer string) error {

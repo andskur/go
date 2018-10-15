@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/andskur/go/support/log"
 	"github.com/go-chi/chi"
 	"github.com/spf13/cobra"
 	"github.com/stellar/go/handlers/federation"
@@ -12,7 +13,6 @@ import (
 	"github.com/stellar/go/support/db"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/log"
 )
 
 // Config represents the configuration of a federation server

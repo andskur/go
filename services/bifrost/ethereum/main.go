@@ -4,9 +4,9 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/andskur/go/support/log"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
 	"github.com/tyler-smith/go-bip32"
 )
 

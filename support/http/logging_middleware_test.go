@@ -4,10 +4,10 @@ import (
 	stdhttp "net/http"
 	"testing"
 
+	"github.com/andskur/go/support/log"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/stellar/go/support/http/httptest"
-	"github.com/stellar/go/support/log"
 	"github.com/stretchr/testify/assert"
 )
 

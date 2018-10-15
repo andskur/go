@@ -13,6 +13,7 @@ import (
 	"os/signal"
 	"time"
 
+	"github.com/andskur/go/support/log"
 	"github.com/stellar/go/keypair"
 	"github.com/stellar/go/services/bifrost/bitcoin"
 	"github.com/stellar/go/services/bifrost/common"
@@ -21,7 +22,6 @@ import (
 	"github.com/stellar/go/support/app"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/log"
 	"github.com/stellar/go/xdr"
 )
 

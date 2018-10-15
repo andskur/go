@@ -9,6 +9,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/andskur/go/support/log"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/ethereum/go-ethereum/ethclient"
@@ -26,7 +27,6 @@ import (
 	"github.com/stellar/go/services/bifrost/stress"
 	supportConfig "github.com/stellar/go/support/config"
 	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
 )
 
 var rootCmd = &cobra.Command{

@@ -3,11 +3,11 @@ package bitcoin
 import (
 	"math/big"
 
+	"github.com/andskur/go/support/log"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
 	"github.com/tyler-smith/go-bip32"
 )
 

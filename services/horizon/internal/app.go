@@ -8,6 +8,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/andskur/go/support/log"
 	"github.com/garyburd/redigo/redis"
 	metrics "github.com/rcrowley/go-metrics"
 	"github.com/stellar/go/build"
@@ -22,7 +23,6 @@ import (
 	"github.com/stellar/go/services/horizon/internal/txsub"
 	"github.com/stellar/go/support/app"
 	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
 	"golang.org/x/net/http2"
 	graceful "gopkg.in/tylerb/graceful.v1"
 )

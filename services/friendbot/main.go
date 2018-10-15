@@ -6,6 +6,7 @@ import (
 	stdhttp "net/http"
 	"os"
 
+	"github.com/andskur/go/support/log"
 	"github.com/go-chi/chi"
 	"github.com/spf13/cobra"
 	"github.com/stellar/go/services/friendbot/internal"
@@ -13,7 +14,6 @@ import (
 	"github.com/stellar/go/support/config"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/log"
 	"github.com/stellar/go/support/render/problem"
 )
 

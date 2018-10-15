@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/andskur/go/support/log"
 	"github.com/pkg/errors"
 	"github.com/stellar/go/address"
 	proto "github.com/stellar/go/protocols/federation"
-	"github.com/stellar/go/support/log"
 )
 
 func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {

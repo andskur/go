@@ -5,9 +5,9 @@ import (
 	stdhttp "net/http"
 	"time"
 
+	"github.com/andskur/go/support/log"
 	"github.com/go-chi/chi/middleware"
 	"github.com/stellar/go/support/http/mutil"
-	"github.com/stellar/go/support/log"
 )
 
 // LoggingMiddleware is a middleware that logs requests to the logger.

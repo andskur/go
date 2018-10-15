@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"context"
 
+	"github.com/andskur/go/support/log"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/support/log"
 )
 
 // ContextWithLogBuffer returns a context and a buffer into which the new, bound

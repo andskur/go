@@ -1,8 +1,8 @@
 package test
 
 import (
+	"github.com/andskur/go/support/log"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/support/log"
 )
 
 var testLogger *log.Entry
