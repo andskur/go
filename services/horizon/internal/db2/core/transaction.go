@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	sq "github.com/Masterminds/squirrel"
+	"github.com/andskur/go/services/horizon/internal/utf8"
+	"github.com/andskur/go/strkey"
+	"github.com/andskur/go/xdr"
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/utf8"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/xdr"
 )
 
 // Base64Signatures returns a slice of strings where each element is a base64

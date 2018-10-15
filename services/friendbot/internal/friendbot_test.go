@@ -3,7 +3,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/stellar/go/clients/horizon"
+	"github.com/andskur/go/clients/horizon"
 	"github.com/stretchr/testify/assert"
 
 	"sync"

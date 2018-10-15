@@ -1,9 +1,9 @@
 package build
 
 import (
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/keypair"
+	"github.com/andskur/go/support/errors"
+	"github.com/andskur/go/xdr"
 )
 
 func setAccountId(addressOrSeed string, aid *xdr.AccountId) error {

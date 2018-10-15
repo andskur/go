@@ -72,7 +72,7 @@ Please migrate your `bridge` DB before running a new version using: `bridge --mi
 
 ## 0.0.20
 
-* Update `github.com/stellar/go` dependency.
+* Update `github.com/andskur/go` dependency.
 
 ## 0.0.19
 

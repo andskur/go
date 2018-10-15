@@ -3,7 +3,7 @@ package horizon
 import (
 	"context"
 
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/xdr"
 	"github.com/stretchr/testify/mock"
 )
 

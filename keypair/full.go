@@ -4,8 +4,8 @@ import (
 	"bytes"
 
 	"github.com/agl/ed25519"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/strkey"
+	"github.com/andskur/go/xdr"
 )
 
 type Full struct {

@@ -131,7 +131,7 @@ This release is a bug fix release for v0.12.0.  *Please see the upgrade notes be
 
 ### Bug fixes
 
-- Fixed an issue caused by un-migrated trade rows. (https://github.com/stellar/go/issues/357)
+- Fixed an issue caused by un-migrated trade rows. (https://github.com/andskur/go/issues/357)
 - Command line flags are now useable for subcommands of horizon.
 
 
@@ -181,7 +181,7 @@ Since this release changes both the schema and the data ingestion system, we rec
 - The ingestion system can now properly import envelopes that contain signatures that are zero-length strings.
 - BREAKING CHANGE: specifying a `limit` of `0` now triggers an error instead of interpreting the value to mean "use the default limit".
 - Requests that ask for more records than the maximum page size now trigger a bad request error, instead of an internal server error.
-- Upstream bug fixes to xdr decoding from `github.com/stellar/go`.
+- Upstream bug fixes to xdr decoding from `github.com/andskur/go`.
 
 ### Changed
 

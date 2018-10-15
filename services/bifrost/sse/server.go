@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/andskur/go/services/bifrost/common"
 	"github.com/andskur/go/support/log"
 	"github.com/r3labs/sse"
-	"github.com/stellar/go/services/bifrost/common"
 )
 
 func (s *Server) init() {

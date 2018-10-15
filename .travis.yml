@@ -9,7 +9,7 @@ go:
 - '1.9'
 - '1.10'
 - tip
-go_import_path: github.com/stellar/go
+go_import_path: github.com/andskur/go
 install:
 - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 script:

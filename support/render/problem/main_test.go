@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/andskur/go/support/test"
 	ge "github.com/go-errors/errors"
-	"github.com/stellar/go/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

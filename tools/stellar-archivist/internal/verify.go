@@ -14,7 +14,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/xdr"
 )
 
 // Transaction sets are sorted in two different orders: one for hashing and

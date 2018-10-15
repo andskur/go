@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
+	"github.com/andskur/go/services/internal/bridge-compliance-shared/http/helpers"
+	"github.com/andskur/go/services/internal/bridge-compliance-shared/protocols/bridge"
 	log "github.com/sirupsen/logrus"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/http/helpers"
-	"github.com/stellar/go/services/internal/bridge-compliance-shared/protocols/bridge"
 )
 
 // Authorize implements /reprocess endpoint

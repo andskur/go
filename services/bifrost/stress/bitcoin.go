@@ -6,6 +6,7 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/andskur/go/services/bifrost/common"
 	"github.com/andskur/go/support/log"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
@@ -13,7 +14,6 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 	"github.com/haltingstate/secp256k1-go"
-	"github.com/stellar/go/services/bifrost/common"
 )
 
 func (c *RandomBitcoinClient) Start(addresses <-chan string) {

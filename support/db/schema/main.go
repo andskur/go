@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"errors"
 
+	"github.com/andskur/go/support/db"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/support/db"
 )
 
 // MigrateDir represents a direction in which to perform schema migrations.

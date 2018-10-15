@@ -7,11 +7,11 @@ import (
 	"context"
 	"encoding/base64"
 
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/txsub"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/services/horizon/internal/db2/core"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	"github.com/andskur/go/services/horizon/internal/ledger"
+	"github.com/andskur/go/services/horizon/internal/txsub"
+	"github.com/andskur/go/xdr"
 )
 
 // DB provides transactio submission results by querying the

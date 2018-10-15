@@ -9,19 +9,19 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
+	"github.com/andskur/go/clients/federation"
+	"github.com/andskur/go/clients/stellartoml"
+	"github.com/andskur/go/services/compliance/internal/config"
+	"github.com/andskur/go/services/compliance/internal/crypto"
+	"github.com/andskur/go/services/compliance/internal/db"
+	"github.com/andskur/go/services/compliance/internal/handlers"
+	supportConfig "github.com/andskur/go/support/config"
+	"github.com/andskur/go/support/db/schema"
+	"github.com/andskur/go/support/errors"
+	supportHttp "github.com/andskur/go/support/http"
 	"github.com/facebookgo/inject"
 	"github.com/goji/httpauth"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/clients/federation"
-	"github.com/stellar/go/clients/stellartoml"
-	"github.com/stellar/go/services/compliance/internal/config"
-	"github.com/stellar/go/services/compliance/internal/crypto"
-	"github.com/stellar/go/services/compliance/internal/db"
-	"github.com/stellar/go/services/compliance/internal/handlers"
-	supportConfig "github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/db/schema"
-	"github.com/stellar/go/support/errors"
-	supportHttp "github.com/stellar/go/support/http"
 )
 
 var app *App

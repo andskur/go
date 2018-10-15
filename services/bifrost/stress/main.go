@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"sync"
 
+	"github.com/andskur/go/clients/horizon"
 	"github.com/andskur/go/support/log"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/stellar/go/clients/horizon"
 )
 
 const satsInBtc = 100000000

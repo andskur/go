@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/andskur/go/support/errors"
+	"github.com/andskur/go/xdr"
 	"github.com/manucorporat/sse"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
 )
 
 // HomeDomainForAccount returns the home domain for the provided strkey-encoded

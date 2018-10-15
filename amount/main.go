@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/support/errors"
+	"github.com/andskur/go/xdr"
 )
 
 // One is the value of one whole unit of currency. Stellar uses 7 fixed digits

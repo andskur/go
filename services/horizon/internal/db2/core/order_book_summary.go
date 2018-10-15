@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"text/template"
 
+	"github.com/andskur/go/xdr"
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/xdr"
 )
 
 type orderbookQueryBuilder struct {

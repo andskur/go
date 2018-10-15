@@ -1,10 +1,10 @@
 package simplepath
 
 import (
+	"github.com/andskur/go/services/horizon/internal/db2/core"
+	"github.com/andskur/go/services/horizon/internal/paths"
 	"github.com/andskur/go/support/log"
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/paths"
 )
 
 // Finder implements the paths.Finder interface and searchs for

@@ -21,7 +21,7 @@ In addition to the two prerequisites above, you may optionally install a redis s
 
 ## Installing
 
-To install horizon, you have a choice: either downloading a [prebuilt release for your target architecture](https://github.com/stellar/go/releases) and operation system, or [building horizon yourself](#Building).  When either approach is complete, you will find yourself with a directory containing a file named `horizon`.  This file is a native binary.
+To install horizon, you have a choice: either downloading a [prebuilt release for your target architecture](https://github.com/andskur/go/releases) and operation system, or [building horizon yourself](#Building).  When either approach is complete, you will find yourself with a directory containing a file named `horizon`.  This file is a native binary.
 
 After building or unpacking horizon, you simply need to copy the native binary into a directory that is part of your PATH.  Most unix-like systems have `/usr/local/bin` in PATH by default, so unless you have a preference or know better, we recommend you copy the binary there.
 
@@ -40,9 +40,9 @@ Should you decide not to use one of our prebuilt releases, you may instead build
 
 Provided your workstation satisfies the requirements above, follow the steps below:
 
-1. Clone horizon's source:  `go get github.com/stellar/go && cd $GOPATH/src/github.com/stellar/go/`
+1. Clone horizon's source:  `go get github.com/andskur/go && cd $GOPATH/src/github.com/andskur/go/`
 2. Under the project folder, download external dependencies: `glide install`
-3. Build the binary: `go install github.com/stellar/go/services/horizon`
+3. Build the binary: `go install github.com/andskur/go/services/horizon`
 
 After running the above commands have succeeded, the built horizon will have been written into the `bin` subdirectory of your $GOPATH.
 
@@ -65,7 +65,7 @@ As you will see if you run the command above, horizon defines a large number of 
 
 `--db-url` specifies the horizon database, and its value should be a valid [PostgreSQL Connection URI](http://www.postgresql.org/docs/9.2/static/libpq-connect.html#AEN38419).  `--stellar-core-db-url` specifies a stellar-core database which will be used to load data about the stellar ledger.  Finally, `--stellar-core-url` specifies the HTTP control port for an instance of stellar-core.  This URL should be associated with the stellar-core that is writing to the database at `--stellar-core-db-url`.
 
-Specifying command line flags every time you invoke horizon can be cumbersome, and so we recommend using environment variables.  There are many tools you can use to manage environment variables:  we recommend either [direnv](http://direnv.net/) or [dotenv](https://github.com/bkeepers/dotenv).  A template configuration that is compatible with dotenv can be found in the [horizon git repo](https://github.com/stellar/go/blob/master/services/horizon/.env.template).
+Specifying command line flags every time you invoke horizon can be cumbersome, and so we recommend using environment variables.  There are many tools you can use to manage environment variables:  we recommend either [direnv](http://direnv.net/) or [dotenv](https://github.com/bkeepers/dotenv).  A template configuration that is compatible with dotenv can be found in the [horizon git repo](https://github.com/andskur/go/blob/master/services/horizon/.env.template).
 
 
 

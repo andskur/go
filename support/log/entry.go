@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"github.com/andskur/go/support/errors"
 	gerr "github.com/go-errors/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
-	"github.com/stellar/go/support/errors"
 )
 
 // Ctx appends all fields from `e` to the new logger created from `ctx`

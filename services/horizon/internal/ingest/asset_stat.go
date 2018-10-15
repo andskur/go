@@ -4,11 +4,11 @@ import (
 	"strings"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/services/horizon/internal/db2/core"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	"github.com/andskur/go/support/db"
+	"github.com/andskur/go/support/errors"
+	"github.com/andskur/go/xdr"
 )
 
 func (assetsModified AssetsModified) handlePaymentOp(paymentOp *xdr.PaymentOp, sourceAccount *xdr.AccountId) error {

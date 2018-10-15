@@ -3,10 +3,10 @@ package helpers
 import (
 	"strings"
 
+	"github.com/andskur/go/address"
+	"github.com/andskur/go/amount"
+	"github.com/andskur/go/strkey"
 	"github.com/asaskevich/govalidator"
-	"github.com/stellar/go/address"
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/strkey"
 )
 
 func init() {

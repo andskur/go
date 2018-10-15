@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/andskur/go/services/horizon/internal/test"
 )
 
 func TestDefaultSubmitter(t *testing.T) {

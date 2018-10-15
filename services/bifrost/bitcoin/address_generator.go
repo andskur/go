@@ -1,9 +1,9 @@
 package bitcoin
 
 import (
+	"github.com/andskur/go/support/errors"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil"
-	"github.com/stellar/go/support/errors"
 	"github.com/tyler-smith/go-bip32"
 )
 

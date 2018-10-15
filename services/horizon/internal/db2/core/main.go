@@ -3,10 +3,10 @@
 package core
 
 import (
+	"github.com/andskur/go/strkey"
+	"github.com/andskur/go/support/db"
+	"github.com/andskur/go/xdr"
 	"github.com/guregu/null"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
 )
 
 // Account is a row of data from the `accounts` table

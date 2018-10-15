@@ -3,9 +3,9 @@ package build
 import (
 	"testing"
 
+	"github.com/andskur/go/xdr"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/stellar/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 
 	"github.com/BurntSushi/toml"
+	"github.com/andskur/go/amount"
+	"github.com/andskur/go/strkey"
+	"github.com/andskur/go/support/errors"
 	"github.com/asaskevich/govalidator"
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
 )
 
 // TLS represents a common configuration snippet for configuring TLS in a server process

@@ -1,11 +1,10 @@
 package effects
 
 import (
+	"github.com/andskur/go/protocols/horizon/base"
+	"github.com/andskur/go/support/render/hal"
 	"time"
-	"github.com/stellar/go/protocols/horizon/base"
-	"github.com/stellar/go/support/render/hal"
 )
-
 
 // Base provides the common structure for any effect resource effect.
 type Base struct {

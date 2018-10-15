@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/test"
+	"github.com/andskur/go/services/horizon/internal/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )
@@ -15,7 +15,7 @@ type SubmissionListTestSuite struct {
 	list      OpenSubmissionList
 	realList  *submissionList
 	listeners []chan Result
-	hashes []string
+	hashes    []string
 	ctx       context.Context
 }
 

@@ -1,8 +1,8 @@
 package compliance
 
 import (
+	"github.com/andskur/go/address"
 	"github.com/asaskevich/govalidator"
-	"github.com/stellar/go/address"
 )
 
 func init() {

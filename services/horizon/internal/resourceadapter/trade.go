@@ -4,12 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/support/render/hal"
-	. "github.com/stellar/go/protocols/horizon"
-
+	"github.com/andskur/go/amount"
+	. "github.com/andskur/go/protocols/horizon"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	"github.com/andskur/go/services/horizon/internal/httpx"
+	"github.com/andskur/go/support/render/hal"
 )
 
 // Populate fills out the details of a trade using a row from the history_trades
@@ -45,7 +44,6 @@ func PopulateTrade(
 	populateTradeLinks(ctx, dest, row.HistoryOperationID)
 	return
 }
-
 
 func populateTradeLinks(
 	ctx context.Context,

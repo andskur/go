@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/andskur/go/exp/crypto/derivation"
+	"github.com/andskur/go/keypair"
+	"github.com/andskur/go/support/errors"
 	"github.com/spf13/cobra"
-	"github.com/stellar/go/exp/crypto/derivation"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/support/errors"
 	"github.com/tyler-smith/go-bip39"
 )
 

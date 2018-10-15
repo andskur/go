@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/andskur/go/clients/horizon"
+	"github.com/andskur/go/keypair"
+	"github.com/andskur/go/services/bifrost/common"
+	"github.com/andskur/go/support/errors"
 	"github.com/andskur/go/support/log"
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/bifrost/common"
-	"github.com/stellar/go/support/errors"
 )
 
 func (ac *AccountConfigurator) Start() error {

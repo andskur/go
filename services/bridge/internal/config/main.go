@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/stellar/go/keypair"
+	"github.com/andskur/go/keypair"
 )
 
 // Config contains config params of the bridge server

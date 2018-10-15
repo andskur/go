@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
+	apkg "github.com/andskur/go/support/app"
 	"github.com/spf13/cobra"
-	apkg "github.com/stellar/go/support/app"
 )
 
 var versionCmd = &cobra.Command{

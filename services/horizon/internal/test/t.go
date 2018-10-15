@@ -5,9 +5,9 @@ import (
 
 	"encoding/json"
 
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/andskur/go/services/horizon/internal/ledger"
+	"github.com/andskur/go/support/db"
+	"github.com/andskur/go/support/render/hal"
 )
 
 // CoreSession returns a db.Session instance pointing at the stellar core test database

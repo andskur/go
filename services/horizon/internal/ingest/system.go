@@ -3,13 +3,13 @@ package ingest
 import (
 	"time"
 
+	"github.com/andskur/go/services/horizon/internal/db2/core"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	herr "github.com/andskur/go/services/horizon/internal/errors"
+	"github.com/andskur/go/services/horizon/internal/ledger"
+	"github.com/andskur/go/services/horizon/internal/toid"
+	"github.com/andskur/go/support/errors"
 	ilog "github.com/andskur/go/support/log"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	herr "github.com/stellar/go/services/horizon/internal/errors"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
 )
 
 var log = ilog.DefaultLogger.WithField("service", "ingest")

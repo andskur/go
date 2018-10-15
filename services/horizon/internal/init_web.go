@@ -8,15 +8,15 @@ import (
 
 	"github.com/PuerkitoBio/throttled"
 	"github.com/PuerkitoBio/throttled/store"
+	"github.com/andskur/go/services/horizon/internal/db2"
+	hProblem "github.com/andskur/go/services/horizon/internal/render/problem"
+	"github.com/andskur/go/services/horizon/internal/txsub/sequence"
+	"github.com/andskur/go/support/render/problem"
 	"github.com/go-chi/chi"
 	chimiddleware "github.com/go-chi/chi/middleware"
 	metrics "github.com/rcrowley/go-metrics"
 	"github.com/rs/cors"
 	"github.com/sebest/xff"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
-	"github.com/stellar/go/support/render/problem"
 )
 
 // Web contains the http server related fields for horizon: the router,

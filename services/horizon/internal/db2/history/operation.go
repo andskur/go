@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 
 	sq "github.com/Masterminds/squirrel"
+	"github.com/andskur/go/services/horizon/internal/db2"
+	"github.com/andskur/go/services/horizon/internal/toid"
+	"github.com/andskur/go/xdr"
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/xdr"
 )
 
 // LedgerSequence return the ledger in which the effect occurred.

@@ -3,8 +3,8 @@ package stellar
 import (
 	"sync"
 
+	"github.com/andskur/go/clients/horizon"
 	"github.com/andskur/go/support/log"
-	"github.com/stellar/go/clients/horizon"
 )
 
 // Status describes status of account processing

@@ -8,12 +8,12 @@ import (
 	"math"
 
 	sq "github.com/Masterminds/squirrel"
+	"github.com/andskur/go/services/horizon/internal/db2/core"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	"github.com/andskur/go/services/horizon/internal/db2/sqx"
+	"github.com/andskur/go/support/errors"
+	"github.com/andskur/go/xdr"
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/db2/sqx"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
 )
 
 // ClearAll clears the entire history database

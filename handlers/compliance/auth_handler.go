@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	complianceProtocol "github.com/andskur/go/protocols/compliance"
+	"github.com/andskur/go/support/errors"
 	"github.com/andskur/go/support/log"
-	complianceProtocol "github.com/stellar/go/protocols/compliance"
-	"github.com/stellar/go/support/errors"
 )
 
 func (h *AuthHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {

@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/stellar/go/clients/horizon"
-	"github.com/stellar/go/services/friendbot/internal"
-	"github.com/stellar/go/strkey"
+	"github.com/andskur/go/clients/horizon"
+	"github.com/andskur/go/services/friendbot/internal"
+	"github.com/andskur/go/strkey"
 )
 
 func initFriendbot(

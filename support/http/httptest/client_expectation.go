@@ -3,8 +3,8 @@ package httptest
 import (
 	"net/http"
 
+	"github.com/andskur/go/support/errors"
 	"github.com/jarcoal/httpmock"
-	"github.com/stellar/go/support/errors"
 )
 
 // Return specifies the response for a ClientExpectation, which is then

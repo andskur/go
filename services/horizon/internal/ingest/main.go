@@ -7,10 +7,10 @@ import (
 	"sync"
 
 	sq "github.com/Masterminds/squirrel"
+	"github.com/andskur/go/services/horizon/internal/db2/core"
+	"github.com/andskur/go/support/db"
+	"github.com/andskur/go/xdr"
 	metrics "github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
 )
 
 const (

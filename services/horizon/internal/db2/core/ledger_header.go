@@ -2,7 +2,7 @@ package core
 
 import (
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/xdr"
 )
 
 // DataXDR returns the base64 encoded ledger header

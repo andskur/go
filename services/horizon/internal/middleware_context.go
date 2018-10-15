@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/support/context/requestid"
+	"github.com/andskur/go/services/horizon/internal/httpx"
+	"github.com/andskur/go/support/context/requestid"
 )
 
 func contextMiddleware(parent context.Context) func(next http.Handler) http.Handler {

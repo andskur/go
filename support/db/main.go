@@ -16,8 +16,8 @@ import (
 	"database/sql"
 
 	"github.com/Masterminds/squirrel"
+	"github.com/andskur/go/support/errors"
 	"github.com/jmoiron/sqlx"
-	"github.com/stellar/go/support/errors"
 
 	// Enable mysql
 	_ "github.com/go-sql-driver/mysql"

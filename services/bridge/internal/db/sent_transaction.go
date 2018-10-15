@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql/driver"
 
-	"github.com/stellar/go/support/errors"
+	"github.com/andskur/go/support/errors"
 )
 
 // Scan implements database/sql.Scanner interface

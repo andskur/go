@@ -4,16 +4,16 @@
 Horizon is the [client facing API](/docs) server for the Stellar ecosystem.  It acts as the interface between stellar-core and applications that want to access the Stellar network. It allows you to submit transactions to the network, check the status of accounts, subscribe to event streams, etc. See [an overview of the Stellar ecosystem](https://www.stellar.org/developers/guides/get-started/) for more details.
 
 ## Downloading the server
-[Prebuilt binaries](https://github.com/stellar/go/releases) of horizon are available on the 
-[releases page](https://github.com/stellar/go/releases).
+[Prebuilt binaries](https://github.com/andskur/go/releases) of horizon are available on the 
+[releases page](https://github.com/andskur/go/releases).
 
 See [the old releases page](https://github.com/stellar/horizon/releases) for prior releases
 
 | Platform       | Binary file name                                                                         |
 |----------------|------------------------------------------------------------------------------------------|
-| Mac OSX 64 bit | [horizon-darwin-amd64](https://github.com/stellar/go/releases/download/horizon-v0.12.0-testing/horizon-v0.12.0-testing-darwin-amd64.tar.gz)      |
-| Linux 64 bit   | [horizon-linux-amd64](https://github.com/stellar/go/releases/download/horizon-v0.12.0-testing/horizon-v0.12.0-testing-linux-amd64.tar.gz)       |
-| Windows 64 bit | [horizon-windows-amd64.exe](https://github.com/stellar/go/releases/download/horizon-v0.12.0-testing/horizon-v0.12.0-testing-windows-amd64.zip) |
+| Mac OSX 64 bit | [horizon-darwin-amd64](https://github.com/andskur/go/releases/download/horizon-v0.12.0-testing/horizon-v0.12.0-testing-darwin-amd64.tar.gz)      |
+| Linux 64 bit   | [horizon-linux-amd64](https://github.com/andskur/go/releases/download/horizon-v0.12.0-testing/horizon-v0.12.0-testing-linux-amd64.tar.gz)       |
+| Windows 64 bit | [horizon-windows-amd64.exe](https://github.com/andskur/go/releases/download/horizon-v0.12.0-testing/horizon-v0.12.0-testing-windows-amd64.zip) |
 
 Alternatively, you can [build](#building) the binary yourself.
 
@@ -39,7 +39,7 @@ Next, you must download the source for packages that horizon depends upon. From 
 glide install
 ```
 
-Then, simply run `go install github.com/stellar/go/services/horizon`.  After successful
+Then, simply run `go install github.com/andskur/go/services/horizon`.  After successful
 completion, you should find `horizon` is present in your `$GOPATH/bin` directory.
 
 More detailed intructions and [admin guide](internal/docs/reference/admin.md). 

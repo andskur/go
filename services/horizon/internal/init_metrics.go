@@ -3,8 +3,8 @@ package horizon
 import (
 	"fmt"
 
+	"github.com/andskur/go/services/horizon/internal/logmetrics"
 	"github.com/rcrowley/go-metrics"
-	"github.com/stellar/go/services/horizon/internal/logmetrics"
 )
 
 func initMetrics(app *App) {

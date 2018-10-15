@@ -5,13 +5,13 @@ import (
 	"strconv"
 	gTime "time"
 
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	"github.com/andskur/go/protocols/horizon"
+	"github.com/andskur/go/services/horizon/internal/db2"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	"github.com/andskur/go/services/horizon/internal/resourceadapter"
+	"github.com/andskur/go/support/render/hal"
+	"github.com/andskur/go/support/time"
+	"github.com/andskur/go/xdr"
 )
 
 type TradeIndexAction struct {

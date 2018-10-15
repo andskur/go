@@ -3,8 +3,8 @@ package db
 import (
 	"time"
 
+	"github.com/andskur/go/support/db"
 	migrate "github.com/rubenv/sql-migrate"
-	"github.com/stellar/go/support/db"
 )
 
 //go:generate go-bindata -ignore .+\.go$ -pkg db -o bindata.go ./...

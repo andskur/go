@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
+	. "github.com/andskur/go/protocols/horizon"
+	"github.com/andskur/go/services/horizon/internal/db2/history"
+	"github.com/andskur/go/services/horizon/internal/httpx"
+	"github.com/andskur/go/support/render/hal"
 	"github.com/guregu/null"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	. "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/render/hal"
 )
 
 // Populate fills out the details
@@ -49,7 +49,6 @@ func PopulateTransaction(
 	dest.Links.Precedes = lb.Linkf("/transactions?order=asc&cursor=%s", dest.PT)
 	return
 }
-
 
 func timeString(res *Transaction, in null.Int) string {
 	if !in.Valid {

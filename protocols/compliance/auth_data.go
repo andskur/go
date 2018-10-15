@@ -4,9 +4,9 @@ import (
 	"crypto/sha256"
 	"encoding/json"
 
+	"github.com/andskur/go/support/errors"
+	"github.com/andskur/go/xdr"
 	"github.com/asaskevich/govalidator"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/xdr"
 )
 
 // Marshal marshals Attachment

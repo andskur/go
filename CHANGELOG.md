@@ -21,4 +21,4 @@ NOTE:  this changelog represents the changes that are associated with the librar
 
 - build: _BREAKING CHANGE_:  A transaction built and signed using the `build` package no longer default to the test network.
 
-[Unreleased]: https://github.com/stellar/go/commits/master
+[Unreleased]: https://github.com/andskur/go/commits/master

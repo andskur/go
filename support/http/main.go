@@ -11,9 +11,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/andskur/go/support/config"
+	"github.com/andskur/go/support/errors"
 	"github.com/andskur/go/support/log"
-	"github.com/stellar/go/support/config"
-	"github.com/stellar/go/support/errors"
 	"golang.org/x/net/http2"
 	"gopkg.in/tylerb/graceful.v1"
 )

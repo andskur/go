@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stellar/go/support/http/httptest"
+	"github.com/andskur/go/support/http/httptest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -20,8 +20,8 @@ func TestClient(t *testing.T) {
 	h.
 		On("GET", "https://horizon.stellar.org/trades/?base_asset_type=native&counter_asset_code=SLT&counter_asset_issuer=GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP&counter_asset_type=credit_alphanum4&limit=3&offer_id=0&order=asc&resolution=300000").
 		ReturnString(http.StatusOK,
-		tradesNormalResponse,
-	)
+			tradesNormalResponse,
+		)
 	trades, err := horizonClient.LoadTrades(
 		Asset{Type: "native"},
 		Asset{"credit_alphanum4", "SLT", "GCKA6K5PCQ6PNF5RQBF7PQDJWRHO6UOGFMRLK3DYHDOI244V47XKQ4GP"},

@@ -7,10 +7,10 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/andskur/go/services/bifrost/common"
 	"github.com/andskur/go/support/log"
 	ethereumCommon "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/stellar/go/services/bifrost/common"
 )
 
 func (c *RandomEthereumClient) Start(addresses <-chan string) {
